@@ -1,0 +1,14 @@
+Added Component: Designator=P1(LCD)
+Added Pin To Net: NetName=NetP1_1 Pin=P1-1
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_5 Pin=P1-5
+Added Pin To Net: NetName=VDD3V3_LCD Pin=P1-6
+Added Pin To Net: NetName=GND Pin=P1-7
+Added Pin To Net: NetName=LCD_V0 Pin=P1-12
+Added Pin To Net: NetName=LCD_XV0 Pin=P1-13
+Added Pin To Net: NetName=LCD_VG Pin=P1-14
+Added Pin To Net: NetName=VDD3V3 Pin=P1-19
+Added Pin To Net: NetName=LCD_LED_K Pin=P1-20
+Added Member To Class: ClassName=LCD Member=Component P1 Header 20

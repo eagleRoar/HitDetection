@@ -1,0 +1,6 @@
+Added Component: Designator=J1(CON4-2.0)
+Added Pin To Net: NetName=VDD3V3_MCU Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=SWDIO Pin=J1-3
+Added Pin To Net: NetName=SWCLK Pin=J1-4
+Added Member To Class: ClassName=Main Member=Component J1 Header 4

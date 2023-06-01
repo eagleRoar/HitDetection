@@ -1,0 +1,50 @@
+Added Component: Designator=U1(LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL)
+Added Pin To Net: NetName=USART3_RX Pin=U1-1
+Added Pin To Net: NetName=NetC8_1 Pin=U1-4
+Added Pin To Net: NetName=NetC7_1 Pin=U1-5
+Added Pin To Net: NetName=VBAT Pin=U1-6
+Added Pin To Net: NetName=VDD3V3_MCU Pin=U1-7
+Added Pin To Net: NetName=VDD3V3_MCU Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=OSC_IN Pin=U1-10
+Added Pin To Net: NetName=OSC_OUT Pin=U1-11
+Added Pin To Net: NetName=NRST Pin=U1-12
+Added Pin To Net: NetName=KEY_MENU Pin=U1-13
+Added Pin To Net: NetName=KEY_UP Pin=U1-14
+Added Pin To Net: NetName=KEY_DOWN Pin=U1-15
+Added Pin To Net: NetName=NetD6_3 Pin=U1-17
+Added Pin To Net: NetName=SPI1_SCK Pin=U1-18
+Added Pin To Net: NetName=USART2_TX Pin=U1-19
+Added Pin To Net: NetName=USART2_RX Pin=U1-20
+Added Pin To Net: NetName=SPI1_NSS Pin=U1-21
+Added Pin To Net: NetName=USART3_TX Pin=U1-22
+Added Pin To Net: NetName=SPI1_MISO Pin=U1-23
+Added Pin To Net: NetName=SPI1_MOSI Pin=U1-24
+Added Pin To Net: NetName=USART1_TX Pin=U1-25
+Added Pin To Net: NetName=USART1_RX Pin=U1-26
+Added Pin To Net: NetName=KEY_MENU Pin=U1-27
+Added Pin To Net: NetName=KEY_UP Pin=U1-28
+Added Pin To Net: NetName=KEY_DOWN Pin=U1-29
+Added Pin To Net: NetName=CTL_SD0_P Pin=U1-37
+Added Pin To Net: NetName=CTL_LCD Pin=U1-38
+Added Pin To Net: NetName=CTL_BLE Pin=U1-39
+Added Pin To Net: NetName=SWDIO Pin=U1-45
+Added Pin To Net: NetName=SWCLK Pin=U1-46
+Added Pin To Net: NetName=LCD_CS Pin=U1-49
+Added Pin To Net: NetName=LCD_RST Pin=U1-50
+Added Pin To Net: NetName=SPI2_SCK Pin=U1-51
+Added Pin To Net: NetName=LCD_A0 Pin=U1-52
+Added Pin To Net: NetName=SPI2_MISO Pin=U1-53
+Added Pin To Net: NetName=SPI2_MOSI Pin=U1-54
+Added Pin To Net: NetName=LCD_BK Pin=U1-55
+Added Pin To Net: NetName=LED1 Pin=U1-58
+Added Pin To Net: NetName=LED2 Pin=U1-59
+Added Pin To Net: NetName=LED3 Pin=U1-60
+Added Pin To Net: NetName=LED4 Pin=U1-61
+Added Pin To Net: NetName=LED5 Pin=U1-62
+Added Member To Class: ClassName=Main Member=Component U1 STM32G070RBT6
+Added Room: Name=LCD
+Added Room: Name=Main
+Added Room: Name=Power
+Added Room: Name=Sensor
+Added Room: Name=TF

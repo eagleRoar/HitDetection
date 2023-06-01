@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=S1-9
+Added Component: Designator=J2(CON4-2.0)
+Added Pin To Net: NetName=PB7 Pin=J2-4
+Added Pin To Net: NetName=PB7 Pin=U1-61
+Added Net: Name=PB7
+Added Pin To Net: NetName=PB8 Pin=J2-3
+Added Pin To Net: NetName=PB8 Pin=U1-62
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=J2-2
+Added Pin To Net: NetName=PB9 Pin=U1-63
+Added Net: Name=PB9
+Added Pin To Net: NetName=PC10 Pin=J2-1
+Added Pin To Net: NetName=PC10 Pin=U1-64
+Added Net: Name=PC10
+Added Member To Class: ClassName=Main Member=Component J2 Header 4

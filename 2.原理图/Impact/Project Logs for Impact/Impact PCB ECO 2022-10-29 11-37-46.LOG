@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VBAT+ Pin=TMI3181A-1
+Removed Pin From Net: NetName=GND Pin=TMI3181A-2
+Removed Pin From Net: NetName=NetL1_2 Pin=TMI3181A-3
+Removed Pin From Net: NetName=VBAT+ Pin=TMI3181A-4
+Removed Pin From Net: NetName=NetC14_1 Pin=TMI3181A-5
+Removed Member From Class: ClassName=Power Member=TMI3181A
+Added Room: Name=LCD
+Added Room: Name=Main
+Added Room: Name=Power
+Added Room: Name=Sensor
+Added Room: Name=TF

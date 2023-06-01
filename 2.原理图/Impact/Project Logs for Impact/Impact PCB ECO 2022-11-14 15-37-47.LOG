@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=J2 Old Footprint=CON4-2.0 New Footprint=HDR1X4
+Added Component: Designator=J3(HDR1X4)
+Added Pin To Net: NetName=VDD3V3_MCU Pin=J3-1
+Added Pin To Net: NetName=USART2_TX Pin=J3-2
+Added Pin To Net: NetName=USART2_RX Pin=J3-3
+Added Pin To Net: NetName=GND Pin=J3-4
+Added Member To Class: ClassName=Main Member=Component J3 Header 4

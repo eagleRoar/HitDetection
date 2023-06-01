@@ -1,0 +1,10 @@
+Change Component Comment : Designator=S1 Old Comment=CON6 New Comment=SHT30-DIS
+Added Pin To Net: NetName=NetR34_1 Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=ALERT Pin=S1-3
+Added Pin To Net: NetName=NetR33_1 Pin=S1-4
+Added Pin To Net: NetName=VDD3V3_TF Pin=S1-5
+Added Pin To Net: NetName=NRESET Pin=S1-6
+Added Pin To Net: NetName=GND Pin=S1-7
+Added Pin To Net: NetName=GND Pin=S1-8
+Added Member To Class: ClassName=Sensor Member=Component S1 SHT30-DIS

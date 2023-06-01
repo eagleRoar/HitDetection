@@ -1,0 +1,38 @@
+Added Component: Designator=K1(SMD6*6*4.5)
+Added Component: Designator=K2(SMD6*6*4.5)
+Added Component: Designator=K3(SMD6*6*4.5)
+Added Component: Designator=K4(SMD6*6*4.5)
+Added Component: Designator=U4(SOT-23-5)
+Added Component: Designator=U5(SOT-23-5)
+Added Pin To Net: NetName=GND Pin=K1-1
+Added Pin To Net: NetName=GND Pin=K1-2
+Added Pin To Net: NetName=NetK1_3 Pin=K1-3
+Added Pin To Net: NetName=NetK1_3 Pin=K1-4
+Added Pin To Net: NetName=GND Pin=K2-1
+Added Pin To Net: NetName=GND Pin=K2-2
+Added Pin To Net: NetName=NetK2_3 Pin=K2-3
+Added Pin To Net: NetName=NetK2_3 Pin=K2-4
+Added Pin To Net: NetName=NetK3_1 Pin=K3-1
+Added Pin To Net: NetName=NetK3_1 Pin=K3-2
+Added Pin To Net: NetName=VDD3V3_MCU Pin=K3-3
+Added Pin To Net: NetName=VDD3V3_MCU Pin=K3-4
+Added Pin To Net: NetName=GND Pin=K4-1
+Added Pin To Net: NetName=GND Pin=K4-2
+Added Pin To Net: NetName=NetK4_3 Pin=K4-3
+Added Pin To Net: NetName=NetK4_3 Pin=K4-4
+Added Pin To Net: NetName=VBAT+ Pin=U4-1
+Added Pin To Net: NetName=GND Pin=U4-2
+Added Pin To Net: NetName=NetL1_2 Pin=U4-3
+Added Pin To Net: NetName=VBAT+ Pin=U4-4
+Added Pin To Net: NetName=NetC14_1 Pin=U4-5
+Added Pin To Net: NetName=NetD9_K Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=VABT+ Pin=U5-3
+Added Pin To Net: NetName=VBUS Pin=U5-4
+Added Pin To Net: NetName=NetR32_1 Pin=U5-5
+Added Member To Class: ClassName=LCD Member=Component K1 YTSA016C0254004B
+Added Member To Class: ClassName=LCD Member=Component K2 YTSA016C0254004B
+Added Member To Class: ClassName=LCD Member=Component K3 YTSA016C0254004B
+Added Member To Class: ClassName=LCD Member=Component K4 YTSA016C0254004B
+Added Member To Class: ClassName=Power Member=Component U4 TMI3181A
+Added Member To Class: ClassName=Power Member=Component U5 TMI4054

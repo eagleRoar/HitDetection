@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=VDD3V3 Pin=C1-1
+Removed Pin From Net: NetName=CTL_LCD Pin=C1-2
+Removed Pin From Net: NetName=VDD3V3 Pin=P1-19
+Removed Pin From Net: NetName=CTL_LCD Pin=Q1-1
+Removed Pin From Net: NetName=VDD3V3 Pin=Q1-2
+Removed Pin From Net: NetName=CTL_LCD Pin=R1-1
+Removed Pin From Net: NetName=VDD3V3 Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=CTL_LCD Pin=R2-2
+Removed Pin From Net: NetName=GND Pin=S1-9
+Removed Member From Class: ClassName=LCD Member=C1
+Removed Member From Class: ClassName=LCD Member=Q1
+Removed Member From Class: ClassName=LCD Member=R1
+Removed Member From Class: ClassName=LCD Member=R2
+Added Pin To Net: NetName=VDD3V3_TF Pin=C2-2
+Added Pin To Net: NetName=VDD3V3_TF Pin=P1-6
+Added Pin To Net: NetName=VDD3V3_TF Pin=P1-19

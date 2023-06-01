@@ -1,0 +1,21 @@
+Added Component: Designator=CARD1(TF-SMD_THD2528-11SD-GF)
+Added Component: Designator=CN1(BATS)
+Added Component: Designator=CN2(BATS)
+Added Pin To Net: NetName=SPI1_NSS Pin=CARD1-1
+Added Pin To Net: NetName=SPI1_MOSI Pin=CARD1-2
+Added Pin To Net: NetName=GND Pin=CARD1-3
+Added Pin To Net: NetName=VDD3V3_TF Pin=CARD1-4
+Added Pin To Net: NetName=SPI1_SCK Pin=CARD1-5
+Added Pin To Net: NetName=GND Pin=CARD1-6
+Added Pin To Net: NetName=SPI1_MISO Pin=CARD1-7
+Added Pin To Net: NetName=TF_PD Pin=CARD1-10
+Added Pin To Net: NetName=TF_PD Pin=CARD1-11
+Added Pin To Net: NetName=TF_PD Pin=CARD1-12
+Added Pin To Net: NetName=TF_PD Pin=CARD1-13
+Added Pin To Net: NetName=VBAT Pin=CN1-1
+Added Pin To Net: NetName=GND Pin=CN1-2
+Added Pin To Net: NetName=NetC11_2 Pin=CN2-1
+Added Pin To Net: NetName=GND Pin=CN2-2
+Added Member To Class: ClassName=TF Member=Component CARD1 THD2528-11SD-GF
+Added Member To Class: ClassName=Main Member=Component CN1 BAT
+Added Member To Class: ClassName=Main Member=Component CN2 BAT

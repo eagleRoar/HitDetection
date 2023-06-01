@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VBAT Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=VBAT Pin=CN1-1
+Removed Pin From Net: NetName=GND Pin=CN1-2
+Removed Member From Class: ClassName=Main Member=C5
+Removed Member From Class: ClassName=Main Member=CN1

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GND Pin=S1-9
+Removed Pin From Net: NetName=KEY_MENU Pin=U1-13
+Removed Pin From Net: NetName=KEY_UP Pin=U1-14
+Removed Pin From Net: NetName=KEY_DOWN Pin=U1-15
+Removed Pin From Net: NetName=KEY_MENU Pin=U1-27
+Removed Pin From Net: NetName=KEY_UP Pin=U1-28
+Removed Pin From Net: NetName=KEY_DOWN Pin=U1-29
+Removed Pin From Net: NetName=LED1 Pin=U1-58
+Removed Pin From Net: NetName=LED2 Pin=U1-59
+Removed Pin From Net: NetName=LED3 Pin=U1-60
+Removed Pin From Net: NetName=LED4 Pin=U1-61
+Removed Pin From Net: NetName=LED5 Pin=U1-62
+Added Pin To Net: NetName=LED1 Pin=U1-27
+Added Pin To Net: NetName=LED2 Pin=U1-28
+Added Pin To Net: NetName=LED3 Pin=U1-29
+Added Pin To Net: NetName=LED4 Pin=U1-31
+Added Pin To Net: NetName=LED5 Pin=U1-32
