@@ -66,9 +66,15 @@ extern "C"
  *
  */
 
+#define BSP_USING_UART1
+#define BSP_UART1_TX_PIN       "PC4"
+#define BSP_UART1_RX_PIN       "PC5"
+#define BSP_UART1_RX_USING_DMA
+
 #define BSP_USING_UART2
-#define BSP_UART2_TX_PIN       "PA1"
-#define BSP_UART2_RX_PIN       "PA2"
+#define BSP_UART2_TX_PIN       "PA2"
+#define BSP_UART2_RX_PIN       "PA3"
+#define BSP_UART2_RX_USING_DMA
 
 /*-------------------------- UART CONFIG END --------------------------*/
 
@@ -116,8 +122,8 @@ extern "C"
  *                 such as     #define HAL_SPI_MODULE_ENABLED
  */
 
-/*#define BSP_USING_SPI1*/
-/*#define BSP_USING_SPI2*/
+#define BSP_USING_SPI1
+#define BSP_USING_SPI2
 /*#define BSP_USING_SPI3*/
 
 /*-------------------------- SPI CONFIG END --------------------------*/
@@ -243,7 +249,7 @@ extern "C"
  *                 such as     #define HAL_RTC_MODULE_ENABLED
  *
  */
-/*#define BSP_USING_ONCHIP_RTC*/
+#define BSP_USING_ONCHIP_RTC
 
 /*-------------------------- RTC CONFIG END --------------------------*/
 
@@ -266,7 +272,7 @@ extern "C"
  *
  */
 
-/*#define BSP_USING_SDIO*/
+//#define BSP_USING_SDIO
 
 /*-------------------------- SDIO CONFIG END --------------------------*/
 
