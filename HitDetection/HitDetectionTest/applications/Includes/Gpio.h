@@ -10,14 +10,17 @@
 #ifndef APPLICATIONS_INCLUDES_GPIO_H_
 #define APPLICATIONS_INCLUDES_GPIO_H_
 
-#define     PIN_HIGH        1
-#define     PIN_LOW         0
+#define     SET_PIN_HIGH        1
+#define     SET_PIN_LOW         0
 
 #define     LCD_CS          GET_PIN(C, 9)
 #define     LCD_RST         GET_PIN(D, 0)
 #define     LCD_A0          GET_PIN(D, 2)
 #define     LCD_BK          GET_PIN(D, 4)
 #define     CTL_LCD         GET_PIN(C, 6)
+
+#define     LED1            GET_PIN(B, 12)
+#define     LED2            GET_PIN(B, 5)
 
 void GpioInit(void);
 

@@ -10,6 +10,7 @@
 
 #include "GlobalConfig.h"
 #include "SDCard.h"
+#include "Gpio.h"
 
 #define DBG_TAG "main"
 #define DBG_LVL DBG_LOG
@@ -22,7 +23,7 @@ int main(void)
     int count = 1;
 
     GpioInit();
-    SDCardInit();
+//    SDCardInit();
 
     while (count++)
     {
