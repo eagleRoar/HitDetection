@@ -10,6 +10,8 @@
 #ifndef APPLICATIONS_INCLUDES_GPIO_H_
 #define APPLICATIONS_INCLUDES_GPIO_H_
 
+#include "typedef.h"
+
 #define     SET_PIN_HIGH        1
 #define     SET_PIN_LOW         0
 
@@ -19,9 +21,13 @@
 #define     LCD_BK          GET_PIN(D, 4)
 #define     CTL_LCD         GET_PIN(C, 6)
 
-#define     LED1            GET_PIN(B, 12)
-#define     LED2            GET_PIN(B, 5)
+#define     LED1            GET_PIN(B, 0)
+#define     LED2            GET_PIN(B, 1)
+#define     LED3            GET_PIN(B, 2)
+#define     LED4            GET_PIN(B, 11)
+#define     LED5            GET_PIN(B, 12)
 
 void GpioInit(void);
+void LedTest(u8 index, u8 state);
 
 #endif /* APPLICATIONS_INCLUDES_GPIO_H_ */

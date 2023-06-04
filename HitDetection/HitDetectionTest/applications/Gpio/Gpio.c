@@ -24,7 +24,38 @@ void GpioInit(void)
 
     //LED1
     rt_pin_mode(LED1, PIN_MODE_OUTPUT);
-    rt_pin_write(LED1, SET_PIN_LOW);
     rt_pin_mode(LED2, PIN_MODE_OUTPUT);
+    rt_pin_mode(LED3, PIN_MODE_OUTPUT);
+    rt_pin_mode(LED4, PIN_MODE_OUTPUT);
+    rt_pin_mode(LED5, PIN_MODE_OUTPUT);
+    rt_pin_write(LED1, SET_PIN_HIGH);
     rt_pin_write(LED2, SET_PIN_HIGH);
+    rt_pin_write(LED3, SET_PIN_HIGH);
+    rt_pin_write(LED4, SET_PIN_HIGH);
+    rt_pin_write(LED5, SET_PIN_HIGH);
+}
+
+void LedTest(u8 index, u8 state)
+{
+    switch(index)
+    {
+
+    case 1:
+        rt_pin_write(LED1, state);
+        break;
+    case 2:
+        rt_pin_write(LED2, state);
+        break;
+    case 3:
+        rt_pin_write(LED3, state);
+        break;
+    case 4:
+        rt_pin_write(LED4, state);
+        break;
+    case 5:
+        rt_pin_write(LED5, state);
+        break;
+
+    default: break;
+    }
 }

@@ -10,6 +10,7 @@
 #include "GlobalConfig.h"
 #include "typedef.h"
 #include "SDCard.h"
+#include "Gpio.h"
 
 u8 sdcard_task[1024];
 struct rt_thread sdcard_thread;
@@ -24,9 +25,11 @@ void SDCardInit(void)
     //将sd挂载
     if (0 != dfs_mount(SDCARD_MEMORY_NAME, "/", "elm", 0, 0))
     {
+        LedTest(1, SET_PIN_LOW);//Justin debug
         //flash 格式化
         if(0 == dfs_mkfs("elm", SDCARD_MEMORY_NAME))
         {
+            LedTest(2, SET_PIN_LOW);//Justin debug
             dfs_mount(SDCARD_MEMORY_NAME, "/", "elm", 0, 0);
         }
     }

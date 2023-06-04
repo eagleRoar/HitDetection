@@ -23,7 +23,7 @@ int main(void)
     int count = 1;
 
     GpioInit();
-//    SDCardInit();
+    SDCardInit();
 
     while (count++)
     {
