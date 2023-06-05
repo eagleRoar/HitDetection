@@ -173,6 +173,23 @@
 
 /* u8g2: a monochrome graphic library */
 
+#define U8G2_USE_HW_SPI
+#define U8G2_SPI_BUS_NAME "spi2"
+#define U8G2_SPI_DEVICE_NAME "spi20"
+#define PKG_USING_U8G2
+
+/* U8G2 Examples */
+
+/* end of U8G2 Examples */
+#define PKG_USING_U8G2_C_LATEST_VERSION
+
+/* C     version: v1.x.x */
+
+/* C++   version: v2.x.x */
+
+/* C/C++ version: v3.x.x */
+
+#define PKG_U8G2_VER_NUM 0x19999
 /* end of u8g2: a monochrome graphic library */
 /* end of multimedia packages */
 
