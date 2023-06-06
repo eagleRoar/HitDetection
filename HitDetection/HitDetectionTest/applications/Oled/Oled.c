@@ -15,8 +15,8 @@
 u8 oled_task[1024];
 struct rt_thread oled_thread;
 
-#define OLED_SPI_PIN_CLK                   21  // PA5
-#define OLED_SPI_PIN_MOSI                  23  // PA7
+#define OLED_SPI_PIN_CLK                   21  // PD1
+#define OLED_SPI_PIN_MOSI                  23  // PD4
 #define OLED_SPI_PIN_RES                   16  // PA2
 #define OLED_SPI_PIN_DC                    15  // PA1
 #define OLED_SPI_PIN_CS                    14  // PA0
