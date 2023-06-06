@@ -9,14 +9,14 @@
  */
 
 #include "GlobalConfig.h"
-#include "SDCard.h"
 #include "Gpio.h"
+#include "SDCard.h"
+#include "Oled.h"
 
 #define DBG_TAG "main"
 #define DBG_LVL DBG_LOG
 #include <rtdbg.h>
 
-//Justin debug需要注意 sdio是通过spi去读取数据的因此要在spi指定sd0
 
 int main(void)
 {
@@ -24,6 +24,7 @@ int main(void)
 
     GpioInit();
     SDCardInit();
+    OledInit();
 
     while (count++)
     {

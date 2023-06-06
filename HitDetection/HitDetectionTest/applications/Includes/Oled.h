@@ -10,6 +10,7 @@
 #ifndef APPLICATIONS_INCLUDES_OLED_H_
 #define APPLICATIONS_INCLUDES_OLED_H_
 
+void OledInit(void);
 
 
 #endif /* APPLICATIONS_INCLUDES_OLED_H_ */

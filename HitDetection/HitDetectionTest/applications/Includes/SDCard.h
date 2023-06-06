@@ -10,8 +10,6 @@
 #ifndef APPLICATIONS_SDCARD_SDCARD_H_
 #define APPLICATIONS_SDCARD_SDCARD_H_
 
-#define SDCARD_MEMORY_NAME      "sd0"
-
 void SDCardInit(void);
 
 #endif /* APPLICATIONS_SDCARD_SDCARD_H_ */
