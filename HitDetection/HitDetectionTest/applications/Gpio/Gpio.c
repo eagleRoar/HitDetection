@@ -33,6 +33,12 @@ void GpioInit(void)
     rt_pin_write(LED3, SET_PIN_HIGH);
     rt_pin_write(LED4, SET_PIN_HIGH);
     rt_pin_write(LED5, SET_PIN_HIGH);
+
+    //SD
+    rt_pin_mode(SD_CTL_PIN, PIN_MODE_OUTPUT);
+
+    //SPI
+    rt_pin_mode(SPI1_NSS, PIN_MODE_OUTPUT);
 }
 
 void LedTest(u8 index, u8 state)

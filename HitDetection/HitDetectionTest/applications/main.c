@@ -17,17 +17,16 @@
 #define DBG_LVL DBG_LOG
 #include <rtdbg.h>
 
-
 int main(void)
 {
-    int count = 1;
 
     GpioInit();
     SDCardInit();
     OledInit();
 
-    while (count++)
+    while (1)
     {
+
         LOG_D("Hello RT-Thread!");
         rt_thread_mdelay(1000);
     }
